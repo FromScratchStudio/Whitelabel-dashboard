@@ -10,6 +10,7 @@ export type ViewId =
   | "planning"
   | "principles"
   | "referentiel"
+  | "userguide"
   | "settings";
 
 // ─── App settings ─────────────────────────────────────────────────────────────

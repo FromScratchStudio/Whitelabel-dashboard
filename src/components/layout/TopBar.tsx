@@ -12,6 +12,7 @@ const TABS: { id: ViewId; label: string }[] = [
   { id: "planning", label: "Planning" },
   { id: "principles", label: "Principles" },
   { id: "referentiel", label: "Referentiel" },
+  { id: "userguide", label: "📖 User Guide" },
   { id: "settings", label: "⚙ Settings" },
 ];
 
