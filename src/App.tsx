@@ -12,6 +12,7 @@ import PlanningView from "./components/views/PlanningView";
 import PrinciplesView from "./components/views/PrinciplesView";
 import ReferentielView from "./components/views/ReferentielView";
 import SettingsView from "./components/views/SettingsView";
+import UserGuideView from "./components/views/UserGuideView";
 
 const VIEW_COMPONENTS: Record<ViewId, JSX.Element> = {
   dashboard: <DashboardView />,
@@ -23,6 +24,7 @@ const VIEW_COMPONENTS: Record<ViewId, JSX.Element> = {
   planning: <PlanningView />,
   principles: <PrinciplesView />,
   referentiel: <ReferentielView />,
+  userguide: <UserGuideView />,
   settings: <SettingsView />,
 };
 
